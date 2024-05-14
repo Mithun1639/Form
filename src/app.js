@@ -35,5 +35,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("server connected at port " + port);
+  console.log("server connected at port " + port + "localhost:3000");
 });
